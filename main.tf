@@ -1,8 +1,1 @@
-terraform {
-  backend "s3" {
-    bucket  = "delete-1"
-    key     = "rds-mysql-state/terraform.tfstate"
-    region  = "us-east-2"
-    encrypt = true
-  }
-}
+aws s3 sync s3://delete-1 C:\Users\pnarayana\Desktop\docker

@@ -1,7 +1,11 @@
 terraform {
   backend "s3" {
     bucket = "delete-1"
-    key    = "path/to/my/key"
-    region = "us-east-1"
+    region = "us-east-2"
+    key = "yourkey/terraform.tfstate"
+    dynamodb_table = "your-lock-table"
+    encrypt = true
+    access_key = "AKIATIB5K2VXSX3F3TO5"
+    secret_key = "U1PWDcCZKjcOTgVsu9kprD1jqmKsx9psuzxUWygn"
   }
 }

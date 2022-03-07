@@ -3,7 +3,7 @@ terraform {
     bucket = "delete-1"
     region = "us-east-2"
     key = "rds-mysql-state/terraform.tfstate"
-    access_key = "AKIATIB5K2VXSX3F3TO5"
-    secret_key = "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"
+    access_key = "AKIA4HDR3GBZJQKZIOM5"
+    secret_key = "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"
   }
 }
